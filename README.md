@@ -35,7 +35,7 @@ To run this project locally or in a development environment:
 npm install -g truffle
 npm install
 
-##Usage
+## Usage
 1. **Compile the smart contracts:**
    truffle compile
 2. **truffle migrate**
@@ -60,4 +60,9 @@ try {
 } catch (error) {
     console.log(error.message)  // Should print an error message
 }
+```
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Contact
+For questions or feedback, please contact eidmuli@mymail.mapua.edu.ph
