@@ -1,0 +1,8 @@
+[250ns] Shutting down all processes 
+[246.76µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[14.07135ms] Terminating process node with PID 366 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240707T134439] <nil>). 
+[14.11071ms] Terminating main process errored: waitid: no child processes 
+[14.15681ms] Terminating process node with PID 69 (state: R, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[45.690408ms] Terminating main process errored: waitid: no child processes 
+[45.912508ms] Couldn't obtain process information for PID 366. 
+[45.978728ms] Finished shutting down all processes. 

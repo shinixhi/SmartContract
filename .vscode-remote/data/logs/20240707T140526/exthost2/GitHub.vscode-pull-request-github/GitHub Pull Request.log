@@ -1,0 +1,4 @@
+2024-07-07 14:31:25.753 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-07-07 14:31:25.753 [info] Activation> Extension version: 0.90.0
+2024-07-07 14:31:25.976 [info] TemporaryState> Error in initialization: Canceled
+2024-07-07 14:31:25.980 [info] TemporaryState> Error in initialization: Canceled

@@ -1,0 +1,34 @@
+2024-07-07 14:31:31.801 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-07-07 14:31:31.801 [info] Activation> Extension version: 0.90.0
+2024-07-07 14:31:33.298 [info] Looking for git repository
+2024-07-07 14:31:33.298 [info] Found 0 repositories during activation
+2024-07-07 14:31:33.298 [info] Git repository found, initializing review manager and pr tree view.
+2024-07-07 14:31:33.301 [info] Registering git provider
+2024-07-07 14:31:33.301 [info] Review+0> Validate state in progress
+2024-07-07 14:31:33.301 [info] Review+0> Validating state...
+2024-07-07 14:31:33.471 [info] Found GitHub remote for folder /workspace/solidity_starter
+2024-07-07 14:31:33.627 [warning] Unable to resolve remote: HttpError: Not Found
+2024-07-07 14:31:33.820 [info] Trying to use globalState for assignableUsers.
+2024-07-07 14:31:33.943 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-07-07 14:31:34.079 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:31:34.106 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:31:34.131 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:31:34.158 [error] GitHubRepository> Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.. 
+2024-07-07 14:31:34.158 [error] GitHubRepository> Unable to fetch issues with query: Error: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.
+2024-07-07 14:31:34.369 [info] Using globalState assignableUsers for 2.
+2024-07-07 14:31:34.603 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-07-07 14:31:34.618 [error] GitHubRepository> Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.. 
+2024-07-07 14:39:58.826 [info] Review+0> Validate state in progress
+2024-07-07 14:39:58.826 [info] Review+0> Validating state...
+2024-07-07 14:39:58.988 [info] Found GitHub remote for folder /workspace/solidity_starter
+2024-07-07 14:39:59.144 [warning] Unable to resolve remote: HttpError: Not Found
+2024-07-07 14:39:59.372 [info] Trying to use globalState for assignableUsers.
+2024-07-07 14:39:59.497 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-07-07 14:39:59.635 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:39:59.662 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:39:59.686 [warning] GitHubRepository> Fetching default branch failed: HttpError: Not Found
+2024-07-07 14:39:59.710 [error] GitHubRepository> Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.. 
+2024-07-07 14:39:59.710 [error] GitHubRepository> Unable to fetch issues with query: Error: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.
+2024-07-07 14:39:59.874 [info] Using globalState assignableUsers for 2.
+2024-07-07 14:40:00.090 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-07-07 14:40:00.125 [error] GitHubRepository> Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'shinixhi/SmartContractmeta'.. 

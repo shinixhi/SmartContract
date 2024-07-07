@@ -1,0 +1,20 @@
+2024-07-07 14:31:25.486 [info] Log level: Info
+2024-07-07 14:31:25.486 [info] Validating found git in: "git"
+2024-07-07 14:31:25.486 [info] Using git "2.45.2" from "git"
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-07 14:31:25.486 [info] Open repository: /workspace/solidity_starter
+2024-07-07 14:31:25.486 [info] > git config --get commit.template [6ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-07 14:31:25.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [27ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [42ms]
+2024-07-07 14:31:25.486 [info] > git status -z -uall [6ms]
+2024-07-07 14:31:25.486 [info] > git merge-base refs/heads/main refs/remotes/old-origin/main [9ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [21ms]
+2024-07-07 14:31:25.486 [info] > git config --get commit.template [12ms]
+2024-07-07 14:31:25.486 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/old-origin/main [7ms]
+2024-07-07 14:31:25.486 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-07 14:31:25.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-07 14:31:25.486 [info] > git diff --name-status -z --diff-filter=ADMR 95cbab214115772e3c855a76dc53fcaf6ca15eba...refs/remotes/old-origin/main [8ms]
+2024-07-07 14:31:25.486 [info] > git status -z -uall [3ms]

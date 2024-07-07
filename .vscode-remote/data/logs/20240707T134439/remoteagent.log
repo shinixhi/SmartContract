@@ -1,0 +1,94 @@
+2024-07-07 13:44:39.611 [info] 
+
+
+
+
+2024-07-07 13:44:39.628 [info] Extension host agent started.
+2024-07-07 13:44:39.655 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-07-07 13:44:39.775 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-07-07 13:44:39.796 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-07-07 13:44:41.279 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-07-07 13:44:41.415 [info] Getting Manifest... github.vscode-pull-request-github
+2024-07-07 13:44:41.710 [info] Installing extension: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:44:42.591 [info] [192.168.44.9][34acdd94][ManagementConnection] New connection established.
+2024-07-07 13:44:43.357 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.90.0-universal: github.vscode-pull-request-github
+2024-07-07 13:44:43.361 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.90.0-universal
+2024-07-07 13:44:43.444 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:44:43.446 [info] Extension 'github.vscode-pull-request-github' v0.90.0 was successfully installed.
+2024-07-07 13:44:44.536 [info] [192.168.139.202][a04dc03a][ExtensionHostConnection] New connection established.
+2024-07-07 13:44:44.541 [info] [192.168.139.202][a04dc03a][ExtensionHostConnection] <329> Launched Extension Host Process.
+2024-07-07 13:44:46.730 [info] Getting Manifest... redhat.java
+2024-07-07 13:44:46.901 [info] Installing extension: redhat.java file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:44:46.901 [info] Installing the extension without checking dependencies and pack redhat.java
+2024-07-07 13:44:56.791 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/redhat.java-1.32.0-universal: redhat.java
+2024-07-07 13:44:56.796 [info] Renamed to /workspace/.vscode-remote/extensions/redhat.java-1.32.0-universal
+2024-07-07 13:44:56.877 [info] Extension installed successfully: redhat.java file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:44:57.548 [info] Getting Manifest... vscjava.vscode-maven
+2024-07-07 13:44:57.716 [info] Installing extension: vscjava.vscode-maven file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:44:57.716 [info] Installing the extension without checking dependencies and pack vscjava.vscode-maven
+2024-07-07 13:45:00.380 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/vscjava.vscode-maven-0.44.0-universal: vscjava.vscode-maven
+2024-07-07 13:45:00.384 [info] Renamed to /workspace/.vscode-remote/extensions/vscjava.vscode-maven-0.44.0-universal
+2024-07-07 13:45:00.448 [info] Extension installed successfully: vscjava.vscode-maven file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:01.102 [info] Getting Manifest... vscjava.vscode-java-dependency
+2024-07-07 13:45:01.269 [info] Installing extension: vscjava.vscode-java-dependency file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:01.269 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-dependency
+2024-07-07 13:45:01.554 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/vscjava.vscode-java-dependency-0.23.7-universal: vscjava.vscode-java-dependency
+2024-07-07 13:45:01.557 [info] Renamed to /workspace/.vscode-remote/extensions/vscjava.vscode-java-dependency-0.23.7-universal
+2024-07-07 13:45:01.630 [info] Extension installed successfully: vscjava.vscode-java-dependency file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:02.288 [info] Getting Manifest... vscjava.vscode-java-debug
+2024-07-07 13:45:02.453 [info] Installing extension: vscjava.vscode-java-debug file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:02.454 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-debug
+2024-07-07 13:45:03.339 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/vscjava.vscode-java-debug-0.58.0-universal: vscjava.vscode-java-debug
+2024-07-07 13:45:03.342 [info] Renamed to /workspace/.vscode-remote/extensions/vscjava.vscode-java-debug-0.58.0-universal
+2024-07-07 13:45:03.423 [info] Extension installed successfully: vscjava.vscode-java-debug file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:04.080 [info] Getting Manifest... vscjava.vscode-java-test
+2024-07-07 13:45:04.247 [info] Installing extension: vscjava.vscode-java-test file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:04.247 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-test
+2024-07-07 13:45:05.049 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/vscjava.vscode-java-test-0.41.1-universal: vscjava.vscode-java-test
+2024-07-07 13:45:05.051 [info] Renamed to /workspace/.vscode-remote/extensions/vscjava.vscode-java-test-0.41.1-universal
+2024-07-07 13:45:05.121 [info] Extension installed successfully: vscjava.vscode-java-test file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:05.787 [info] Getting Manifest... robocorp.robocorp-code
+2024-07-07 13:45:06.006 [info] Installing extension: robocorp.robocorp-code file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:06.006 [info] Installing the extension without checking dependencies and pack robocorp.robocorp-code
+2024-07-07 13:45:07.989 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.10.0-universal: robocorp.robocorp-code
+2024-07-07 13:45:07.996 [info] Renamed to /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.10.0-universal
+2024-07-07 13:45:08.065 [info] Extension installed successfully: robocorp.robocorp-code file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:08.819 [info] Getting Manifest... vscjava.vscode-java-pack
+2024-07-07 13:45:08.986 [info] Installing extension: vscjava.vscode-java-pack file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:08.986 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-pack
+2024-07-07 13:45:09.785 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/vscjava.vscode-java-pack-0.27.0-universal: vscjava.vscode-java-pack
+2024-07-07 13:45:09.788 [info] Renamed to /workspace/.vscode-remote/extensions/vscjava.vscode-java-pack-0.27.0-universal
+2024-07-07 13:45:09.858 [info] Extension installed successfully: vscjava.vscode-java-pack file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:16.714 [info] Getting Manifest... vscjava.vscode-java-dependency
+2024-07-07 13:45:16.714 [info] Getting Manifest... vscjava.vscode-maven
+2024-07-07 13:45:16.714 [info] Getting Manifest... vscjava.vscode-java-debug
+2024-07-07 13:45:16.714 [info] Getting Manifest... vscjava.vscode-java-test
+2024-07-07 13:45:16.714 [info] Getting Manifest... vscjava.vscode-java-pack
+2024-07-07 13:45:16.907 [info] Getting Manifest... robocorp.robocorp-code
+2024-07-07 13:45:17.577 [info] Getting Manifest... redhat.java
+2024-07-07 13:45:17.870 [info] Installing extension: vscjava.vscode-java-pack file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.870 [info] Installing extension: vscjava.vscode-java-dependency file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.870 [info] Installing extension: vscjava.vscode-maven file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.870 [info] Installing extension: vscjava.vscode-java-debug file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.870 [info] Installing extension: vscjava.vscode-java-test file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.870 [info] Installing extension: robocorp.robocorp-code file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.871 [info] Installing extension: redhat.java file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-pack
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-dependency
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack vscjava.vscode-maven
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-debug
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack vscjava.vscode-java-test
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack robocorp.robocorp-code
+2024-07-07 13:45:17.871 [info] Installing the extension without checking dependencies and pack redhat.java
+2024-07-07 13:45:23.357 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64: robocorp.robocorp-code
+2024-07-07 13:45:23.363 [info] Renamed to /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64
+2024-07-07 13:45:23.406 [info] Marked extension as uninstalled robocorp.robocorp-code-1.10.0-universal
+2024-07-07 13:45:23.440 [info] Extension installed successfully: vscjava.vscode-java-pack file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.440 [info] Extension installed successfully: vscjava.vscode-java-dependency file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.440 [info] Extension installed successfully: vscjava.vscode-maven file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.440 [info] Extension installed successfully: vscjava.vscode-java-debug file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.440 [info] Extension installed successfully: vscjava.vscode-java-test file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.441 [info] Extension installed successfully: redhat.java file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:45:23.441 [info] Extension installed successfully: robocorp.robocorp-code file:///workspace/.vscode-remote/extensions/extensions.json
+2024-07-07 13:51:36.291 [info] [192.168.44.9][34acdd94][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-07 13:51:36.342 [info] [192.168.139.202][a04dc03a][ExtensionHostConnection] <329> Extension Host Process exited with code: 0, signal: null.

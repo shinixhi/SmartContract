@@ -1,0 +1,128 @@
+2024-07-07 14:05:32.214 [info] Log level: Info
+2024-07-07 14:05:32.214 [info] Validating found git in: "git"
+2024-07-07 14:05:32.214 [info] Using git "2.45.2" from "git"
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-07 14:05:32.214 [info] Open repository: /workspace/solidity_starter
+2024-07-07 14:05:32.214 [info] > git config --get commit.template [5ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-07 14:05:32.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-07 14:05:32.214 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-07 14:05:32.214 [info] > git status -z -uall [8ms]
+2024-07-07 14:05:32.214 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [19ms]
+2024-07-07 14:05:32.214 [info] > git config --get commit.template [9ms]
+2024-07-07 14:05:32.214 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-07-07 14:05:32.214 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-07 14:05:32.214 [info] > git diff --name-status -z --diff-filter=ADMR 95cbab214115772e3c855a76dc53fcaf6ca15eba...refs/remotes/origin/main [5ms]
+2024-07-07 14:05:32.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:05:32.214 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:05:32.214 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-07 14:05:32.214 [info] > git status -z -uall [2ms]
+2024-07-07 14:05:32.741 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-07 14:05:33.190 [info] > git show --textconv :contracts/SmartContract.sol [9ms]
+2024-07-07 14:05:33.190 [info] > git ls-files --stage -- /workspace/solidity_starter/contracts/SmartContract.sol [1ms]
+2024-07-07 14:05:35.152 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:05:35.152 [warning] git config failed: Failed to execute git
+2024-07-07 14:06:13.335 [info] > git show --textconv :README.md [5ms]
+2024-07-07 14:06:13.336 [info] > git ls-files --stage -- /workspace/solidity_starter/README.md [1ms]
+2024-07-07 14:06:13.342 [info] > git cat-file -s 4bd17328a6be623ffe4890cdbe799c0e8d2dedff [1ms]
+2024-07-07 14:07:23.857 [info] > git config --get commit.template [5ms]
+2024-07-07 14:07:23.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-07-07 14:07:23.864 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:07:23.866 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-07 14:07:23.873 [info] > git status -z -uall [3ms]
+2024-07-07 14:07:28.885 [info] > git config --get commit.template [4ms]
+2024-07-07 14:07:28.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:07:28.889 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:07:28.891 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-07 14:07:28.896 [info] > git status -z -uall [2ms]
+2024-07-07 14:10:17.300 [info] > git config --get commit.template [5ms]
+2024-07-07 14:10:17.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:10:17.305 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:10:17.307 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-07 14:10:17.313 [info] > git status -z -uall [2ms]
+2024-07-07 14:10:34.978 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:10:34.979 [warning] git config failed: Failed to execute git
+2024-07-07 14:10:40.407 [info] > git show --textconv :contracts/HelloWorld.sol [5ms]
+2024-07-07 14:10:40.408 [info] > git ls-files --stage -- /workspace/solidity_starter/contracts/HelloWorld.sol [2ms]
+2024-07-07 14:10:40.414 [info] > git cat-file -s 7e5e637aee2894adab4778d564f9fdf3ae3c0777 [2ms]
+2024-07-07 14:10:41.976 [info] > git show --textconv :README.md [4ms]
+2024-07-07 14:10:41.977 [info] > git ls-files --stage -- /workspace/solidity_starter/README.md [2ms]
+2024-07-07 14:10:41.982 [info] > git cat-file -s 4bd17328a6be623ffe4890cdbe799c0e8d2dedff [1ms]
+2024-07-07 14:10:49.978 [info] > git show --textconv :migrations/2_deploy_migration.js [34ms]
+2024-07-07 14:10:49.979 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_migration.js [2ms]
+2024-07-07 14:10:49.985 [info] > git cat-file -s 9ed6f6fa3978c41d8b4ac979dcfba469d1ef4255 [2ms]
+2024-07-07 14:10:51.494 [info] > git show --textconv :README.md [5ms]
+2024-07-07 14:10:51.496 [info] > git ls-files --stage -- /workspace/solidity_starter/README.md [1ms]
+2024-07-07 14:10:51.502 [info] > git cat-file -s 4bd17328a6be623ffe4890cdbe799c0e8d2dedff [2ms]
+2024-07-07 14:12:15.105 [info] > git show --textconv :contracts/SmartContract.sol [6ms]
+2024-07-07 14:12:15.106 [info] > git ls-files --stage -- /workspace/solidity_starter/contracts/SmartContract.sol [2ms]
+2024-07-07 14:12:24.095 [info] > git show --textconv :migrations/2_deploy_contracts.js [4ms]
+2024-07-07 14:12:24.096 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:15:34.986 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:15:34.986 [warning] git config failed: Failed to execute git
+2024-07-07 14:17:39.137 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:17:39.137 [warning] git config failed: Failed to execute git
+2024-07-07 14:19:14.569 [info] > git config --get commit.template [6ms]
+2024-07-07 14:19:14.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:19:14.576 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:19:14.577 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-07 14:19:14.583 [info] > git status -z -uall [2ms]
+2024-07-07 14:19:14.734 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:19:14.904 [info] > git show --textconv :migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:19:20.073 [info] > git config --get commit.template [6ms]
+2024-07-07 14:19:20.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:19:20.078 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:19:20.080 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-07 14:19:20.086 [info] > git status -z -uall [2ms]
+2024-07-07 14:19:20.236 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:19:20.241 [info] > git cat-file -s b53b71733c3c634a2053f360de7df9ae443c6390 [2ms]
+2024-07-07 14:19:20.411 [info] > git show --textconv :migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:19:28.114 [info] > git config --get commit.template [6ms]
+2024-07-07 14:19:28.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-07 14:19:28.121 [warning] ENOENT: no such file or directory, open '/workspace/solidity_starter/.git/refs/remotes/origin/main'
+2024-07-07 14:19:28.122 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-07 14:19:28.129 [info] > git status -z -uall [2ms]
+2024-07-07 14:19:28.137 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-07-07 14:19:28.143 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-07 14:19:28.150 [info] > git diff --name-status -z --diff-filter=ADMR 95cbab214115772e3c855a76dc53fcaf6ca15eba...refs/remotes/origin/main [2ms]
+2024-07-07 14:19:28.277 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:19:28.282 [info] > git cat-file -s b53b71733c3c634a2053f360de7df9ae443c6390 [2ms]
+2024-07-07 14:19:28.312 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-07-07 14:19:28.312 [warning] git config failed: Failed to execute git
+2024-07-07 14:19:28.451 [info] > git show --textconv :migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:20:34.993 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:20:34.993 [warning] git config failed: Failed to execute git
+2024-07-07 14:24:05.458 [info] > git config --get commit.template [5ms]
+2024-07-07 14:24:05.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:24:05.466 [info] > git status -z -uall [2ms]
+2024-07-07 14:24:05.473 [info] > git merge-base refs/heads/main refs/remotes/old-origin/main [2ms]
+2024-07-07 14:24:05.478 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/old-origin/main [1ms]
+2024-07-07 14:24:05.484 [info] > git diff --name-status -z --diff-filter=ADMR 95cbab214115772e3c855a76dc53fcaf6ca15eba...refs/remotes/old-origin/main [2ms]
+2024-07-07 14:24:05.648 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:24:05.648 [warning] git config failed: Failed to execute git
+2024-07-07 14:24:05.716 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:24:05.722 [info] > git cat-file -s b53b71733c3c634a2053f360de7df9ae443c6390 [1ms]
+2024-07-07 14:24:05.891 [info] > git show --textconv :migrations/2_deploy_contracts.js [1ms]
+2024-07-07 14:24:43.733 [info] > git config --get commit.template [5ms]
+2024-07-07 14:24:43.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-07 14:24:43.742 [info] > git status -z -uall [2ms]
+2024-07-07 14:24:43.993 [info] > git ls-files --stage -- /workspace/solidity_starter/migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:24:43.999 [info] > git cat-file -s b53b71733c3c634a2053f360de7df9ae443c6390 [2ms]
+2024-07-07 14:24:44.169 [info] > git show --textconv :migrations/2_deploy_contracts.js [2ms]
+2024-07-07 14:25:35.000 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-07-07 14:25:35.000 [warning] git config failed: Failed to execute git
+2024-07-07 14:26:11.185 [info] > git config --local branch.main.github-pr-owner-number [114ms]
+2024-07-07 14:26:11.185 [warning] git config failed: Failed to execute git
+2024-07-07 14:26:13.193 [info] > git config --local branch.main.github-pr-owner-number [112ms]
+2024-07-07 14:26:13.193 [warning] git config failed: Failed to execute git
+2024-07-07 14:26:16.318 [info] > git config --local branch.main.github-pr-owner-number [111ms]
+2024-07-07 14:26:16.319 [warning] git config failed: Failed to execute git
+2024-07-07 14:26:18.109 [info] > git config --local branch.main.github-pr-owner-number [113ms]
+2024-07-07 14:26:18.109 [warning] git config failed: Failed to execute git
+2024-07-07 14:30:35.007 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-07 14:30:35.007 [warning] git config failed: Failed to execute git

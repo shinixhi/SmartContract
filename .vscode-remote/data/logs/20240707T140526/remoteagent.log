@@ -1,0 +1,22 @@
+2024-07-07 14:05:26.921 [info] 
+
+
+
+
+2024-07-07 14:05:26.941 [info] Extension host agent started.
+2024-07-07 14:05:27.081 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-07-07 14:05:27.082 [info] Extension 'github.vscode-pull-request-github' v0.90.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-07-07 14:05:27.138 [info] Deleted uninstalled extension from disk robocorp.robocorp-code /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.10.0-universal
+2024-07-07 14:05:28.701 [info] [192.168.139.202][fa7f632a][ManagementConnection] New connection established.
+2024-07-07 14:05:29.334 [info] [192.168.44.9][058318bd][ExtensionHostConnection] New connection established.
+2024-07-07 14:05:29.591 [info] [192.168.44.9][058318bd][ExtensionHostConnection] <303> Launched Extension Host Process.
+2024-07-07 14:31:19.181 [info] [192.168.139.202][fa7f632a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-07 14:31:19.230 [info] [192.168.44.9][058318bd][ExtensionHostConnection] <303> Extension Host Process exited with code: 0, signal: null.
+2024-07-07 14:31:22.043 [info] [192.168.219.139][ed4832fa][ManagementConnection] New connection established.
+2024-07-07 14:31:22.640 [info] [192.168.219.139][08c1c74f][ExtensionHostConnection] New connection established.
+2024-07-07 14:31:22.646 [info] [192.168.219.139][08c1c74f][ExtensionHostConnection] <5102> Launched Extension Host Process.
+2024-07-07 14:31:25.962 [info] [192.168.219.139][ed4832fa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-07 14:31:26.000 [info] [192.168.219.139][08c1c74f][ExtensionHostConnection] <5102> Extension Host Process exited with code: 0, signal: null.
+2024-07-07 14:31:28.110 [info] [192.168.44.9][00d19448][ManagementConnection] New connection established.
+2024-07-07 14:31:28.666 [info] [192.168.219.139][aaa8881f][ExtensionHostConnection] New connection established.
+2024-07-07 14:31:28.673 [info] [192.168.219.139][aaa8881f][ExtensionHostConnection] <5256> Launched Extension Host Process.

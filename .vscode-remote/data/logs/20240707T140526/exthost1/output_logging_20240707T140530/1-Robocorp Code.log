@@ -1,0 +1,337 @@
+Activating Robocorp Code extension.
+Waiting for Robocorp Code (python) language server to finish activating...
+Listening for Robo Tasks Output connections on: {"address":"::","family":"IPv6","port":40443}
+ROBOCORP_HOME: /home/gitpod/.robocorp
+Executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc configure diagnostics -j --controller RobocorpCode
+RCC Diagnostics:
+  RCC Details:
+    ENV:ComSpec                              - 
+    ENV:LANG                                 - en_US.UTF-8
+    ENV:SHELL                                - 
+    RCC_REMOTE_ORIGIN                        - 
+    RCC_VERBOSE_ENVIRONMENT_BUILDING         - false
+    ROBOCORP_HOME                            - /home/gitpod/.robocorp
+    ROBOCORP_OVERRIDE_SYSTEM_REQUIREMENTS    - false
+    config-active-profile                    - default
+    config-http-proxy                        - 
+    config-https-proxy                       - 
+    config-legacy-renegotiation-allowed      - false
+    config-micromambarc-used                 - false
+    config-no-proxy                          - 
+    config-piprc-used                        - false
+    config-settings-yaml-age-seconds         - 0
+    config-settings-yaml-used                - false
+    config-ssl-no-revoke                     - false
+    config-ssl-verify                        - true
+    controller                               - rcc.robocorpcode
+    cpus                                     - 16
+    dns-lookup-time                          - DNS lookup time for 9 hostnames was about 0.243s
+    executable                               - /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc
+    hololib-catalog-location                 - /home/gitpod/.robocorp/hololib/catalog
+    hololib-library-location                 - /home/gitpod/.robocorp/hololib/library
+    hololib-location                         - /home/gitpod/.robocorp/hololib
+    holotree-global-shared                   - false
+    holotree-location                        - /home/gitpod/.robocorp/holotree
+    holotree-shared                          - false
+    holotree-user-id                         - a5f6df7
+    hostname                                 - jeffryanpol-soliditysta-6fgnboewdv4
+    installationId                           - 9247c0f7-1ba5-bc45-f4a8-7fdffd22d7fa
+    is-bundled                               - false
+    lock-cache                               - /home/gitpod/.robocorp/rcccache.yaml.lck
+    lock-config                              - /home/gitpod/.robocorp/rcc.yaml.lck
+    lock-holotree                            - /home/gitpod/.robocorp/holotree/global.lck
+    lock-robocorp                            - /home/gitpod/.robocorp/robocorp.lck
+    lock-userlock                            - /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_9fcd2534.lck
+    micromamba                               - fork/exec /home/gitpod/.robocorp/micromamba/v1.5.8/micromamba: no such file or directory
+    micromamba.bin                           - /home/gitpod/.robocorp/micromamba/v1.5.8/micromamba
+    no-build                                 - false
+    os                                       - linux_amd64
+    os-details                               - Distributor ID: Ubuntu; Description: Ubuntu 22.04.4 LTS; Release: 22.04; Codename: jammy
+    os-holo-location                         - /opt/robocorp/ht
+    pyc-management-disabled                  - false
+    rcc                                      - v17.28.4
+    rcc.bin                                  - /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc
+    telemetry-enabled                        - true
+    temp-management-disabled                 - false
+    tempdir                                  - /tmp
+    timezone                                 - UTC
+    tls-lookup-time                          - TLS verification time for 9 hostnames was about 2.964s
+    tls-proxy-firewall                       - undetectable
+    uid:gid                                  - 33333:33333
+    user-agent                               - rcc/v17.28.4 (linux amd64) rcc.robocorpcode
+    user-cache-dir                           - /home/gitpod/.cache
+    user-config-dir                          - /home/gitpod/.config
+    user-home-dir                            - /home/gitpod
+    user-name                                - 
+    user-username                            - gitpod
+    warranty-voided-mode                     - false
+    when                                     - 2024-07-07T14:30:31Z (UTC)
+    working-dir                              - /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin
+  RCC Checks:
+    RPA        - ok      - ROBOCORP_HOME (/home/gitpod/.robocorp) is good enough. (3010)
+    OS         - ok      - CURL_CA_BUNDLE is not set, which is good. (1030)
+    OS         - ok      - NODE_EXTRA_CA_CERTS is not set, which is good. (1030)
+    OS         - ok      - NODE_OPTIONS is not set, which is good. (1030)
+    OS         - ok      - NODE_PATH is not set, which is good. (1030)
+    OS         - ok      - NODE_TLS_REJECT_UNAUTHORIZED is not set, which is good. (1030)
+    OS         - ok      - PIP_CONFIG_FILE is not set, which is good. (1030)
+    OS         - ok      - PLAYWRIGHT_BROWSERS_PATH is not set, which is good. (1030)
+    OS         - ok      - PYTHONPATH is not set, which is good. (1030)
+    OS         - ok      - REQUESTS_CA_BUNDLE is not set, which is good. (1030)
+    OS         - ok      - SSL_CERT_DIR is not set, which is good. (1030)
+    OS         - ok      - SSL_CERT_FILE is not set, which is good. (1030)
+    OS         - ok      - WDM_SSL_VERIFY is not set, which is good. (1030)
+    OS         - ok      - RCC_NO_TEMP_MANAGEMENT is not set, which is good. (1040)
+    OS         - ok      - RCC_NO_PYC_MANAGEMENT is not set, which is good. (1040)
+    OS         - ok      - ROBOCORP_OVERRIDE_SYSTEM_REQUIREMENTS is not set, which is good. (1040)
+    OS         - ok      - Supports long enough paths. (1010)
+    OS         - ok      - Possibly pending lock "rcccache.yaml.lck", user: "gitpod", space: "user", and controller: "RobocorpCode" (parent/pid: 303/4743). May cause environment wait/build delay. (1021)
+    OS         - ok      - 5 lockfiles all seem to work correctly (for this user). (1020)
+    network    - ok      - api.eu1.robocorp.com found [DNS query]: [54.76.75.126 54.217.109.150 52.31.149.114] (4010)
+    network    - ok      - cloud.robocorp.com found [DNS query]: [34.254.101.112 52.208.5.184 52.214.242.60] (4010)
+    network    - ok      - conda.anaconda.org found [DNS query]: [104.19.145.37 104.19.144.37 2606:4700::6813:9025 2606:4700::6813:9125] (4010)
+    network    - ok      - downloads.robocorp.com found [DNS query]: [104.22.40.65 104.22.41.65 172.67.7.153 2606:4700:10::6816:2841 2606:4700:10::6816:2941 2606:4700:10::ac43:799] (4010)
+    network    - ok      - files.pythonhosted.org found [DNS query]: [151.101.200.223 2a04:4e42:2000::223 2a04:4e42:3000::223 2a04:4e42:4000::223 2a04:4e42:5000::223] (4010)
+    network    - ok      - github.com found [DNS query]: [140.82.116.4] (4010)
+    network    - ok      - pypi.org found [DNS query]: [151.101.0.223 151.101.192.223 151.101.128.223 151.101.64.223 2a04:4e42:200::223 2a04:4e42:600::223 2a04:4e42::223 2a04:4e42:400::223] (4010)
+    network    - ok      - robocorp.com found [DNS query]: [104.22.40.65 104.22.41.65 172.67.7.153 2606:4700:10::6816:2841 2606:4700:10::6816:2941 2606:4700:10::ac43:799] (4010)
+    network    - ok      - telemetry.robocorp.com found [DNS query]: [52.49.46.118 54.74.74.247] (4010)
+    network    - ok      - TLS version: "api.eu1.robocorp.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "api.eu1.robocorp.com" passed with certificate issued by "OU=Starfield Class 2 Certification Authority,O=Starfield Technologies\\, Inc.,C=US" (4060)
+    network    - ok      - TLS version: "cloud.robocorp.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "cloud.robocorp.com" passed with certificate issued by "OU=Starfield Class 2 Certification Authority,O=Starfield Technologies\\, Inc.,C=US" (4060)
+    network    - ok      - TLS version: "conda.anaconda.org" -> TLS 1.2 (4050)
+    network    - ok      - TLS verification of "anaconda.org" passed with certificate issued by "CN=DST Root CA X3,O=Digital Signature Trust Co." (4060)
+    network    - ok      - TLS version: "downloads.robocorp.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "downloads.robocorp.com" passed with certificate issued by "CN=DST Root CA X3,O=Digital Signature Trust Co." (4060)
+    network    - ok      - TLS version: "files.pythonhosted.org" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "files.pythonhosted.org" passed with certificate issued by "CN=GlobalSign,OU=GlobalSign Root CA - R3,O=GlobalSign" (4060)
+    network    - ok      - TLS version: "github.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "github.com" passed with certificate issued by "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB" (4060)
+    network    - ok      - TLS version: "pypi.org" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "pypi.org" passed with certificate issued by "CN=GlobalSign,OU=GlobalSign Root CA - R3,O=GlobalSign" (4060)
+    network    - ok      - TLS version: "robocorp.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "robocorp.com" passed with certificate issued by "CN=DST Root CA X3,O=Digital Signature Trust Co." (4060)
+    network    - ok      - TLS version: "telemetry.robocorp.com" -> TLS 1.3 (4050)
+    network    - ok      - TLS verification of "telemetry.robocorp.com" passed with certificate issued by "OU=Starfield Class 2 Certification Authority,O=Starfield Technologies\\, Inc.,C=US" (4060)
+    network    - ok      - Canary download successful [GET request]: https://downloads.robocorp.com/canary.txt (4040)
+    network    - ok      - PyPI canary download successful [HEAD request]: https://pypi.org/jupyterlab-pygments/ (4030)
+    network    - ok      - Conda canary download successful [HEAD request]: https://conda.anaconda.org/conda-forge/linux-64/repodata.json (4030)
+    Settings   - ok      - In general, 'settings.yaml' is ok. (0)
+
+Took 4.2s to obtain diagnostics.
+Executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree shared --enable --once
+Warning: Running this command might need sudo/root/elevated access rights. Still, trying ...
+Could not enable shared location at "/opt/robocorp", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+Error executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree shared --enable --once
+Error: Error: Command failed: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree shared --enable --once
+Warning: Running this command might need sudo/root/elevated access rights. Still, trying ...
+Could not enable shared location at "/opt/robocorp", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+
+Error message: Command failed: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree shared --enable --once
+Warning: Running this command might need sudo/root/elevated access rights. Still, trying ...
+Could not enable shared location at "/opt/robocorp", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+
+Error code: 1
+Error name: Error
+Executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree init
+Warning: Running this command might need 'rcc holotree shared --enable' first. Still, trying ...
+Could not enable shared location at "/opt/robocorp/ht/lib/catalog/init", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+Error executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree init
+Error: Error: Command failed: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree init
+Warning: Running this command might need 'rcc holotree shared --enable' first. Still, trying ...
+Could not enable shared location at "/opt/robocorp/ht/lib/catalog/init", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+
+Error message: Command failed: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree init
+Warning: Running this command might need 'rcc holotree shared --enable' first. Still, trying ...
+Could not enable shared location at "/opt/robocorp/ht/lib/catalog/init", reason: chmod /opt: operation not permitted
+[rcc] exit status will be: 1!
+
+Error code: 1
+Error name: Error
+Error while initializing shared holotree.
+Executing: /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc holotree variables --space vscode-base-v01-e8b223 --json /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/create_env/conda_vscode_linux_amd64.yaml --controller RobocorpCode
+####  Progress: 00/15  v17.28.4     0.057s  Context: "" <gitpod@jeffryanpol-soliditysta-6fgnboewdv4> [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 22.04.4 LTS; Release: 22.04; Codename: jammy].
+####  Progress: 01/15  v17.28.4     0.000s  Fresh [private mode] holotree environment 9247c0f7-1ba5-bc45-f4a8-7fdffd22d7fa. (parent/pid: 303/4789)
+####  Progress: 02/15  v17.28.4     0.000s  Holotree blueprint is "e9c56273fd47ede1" [linux_amd64 with 15 workers on 16 CPUs from "e9c56273fd47ede1"].
+FINAL unified conda environment descriptor:
+---
+channels:
+- conda-forge
+dependencies:
+- python=3.10.12
+- pip=23.2.1
+- pyyaml=6.0.1
+- msgspec=0.18.2
+- robocorp-truststore=0.8.0
+- pyscreeze==0.1.30
+- python-mss==9.0.1
+- pip:
+  - --use-feature=truststore
+  - robotframework==5.0.1
+  - playwright==1.37.0
+---
+####  Progress: 03/15  v17.28.4     0.000s  Fill hololib from RCC_REMOTE_ORIGIN skipped. RCC_REMOTE_ORIGIN was not defined.
+####  Progress: 04/15  v17.28.4     0.000s  Cleanup holotree stage for fresh install.
+####  Progress: 05/15  v17.28.4     0.000s  Build environment into holotree stage "/home/gitpod/.robocorp/holotree/ha5f6df7_493f813dad24d3t".
+####  Progress: 06/15  v17.28.4     0.000s  Restore partial environment into holotree stage "/home/gitpod/.robocorp/holotree/ha5f6df7_493f813dad24d3t".
+Note: Extracting micromamba binary from inside rcc.
+####  Progress: 07/15  v17.28.4     0.173s  Running micromamba phase. (micromamba v1.5.8) [layer: b79313ceb846bc40]
+####  Progress: 08/15  v17.28.4    24.038s  Running pip install phase. (pip v23.2.1) [layer: e9c56273fd47ede1]
+####  Progress: 09/15  v17.28.4     3.759s  Post install scripts phase skipped -- no scripts.
+####  Progress: 10/15  v17.28.4     0.000s  Activate environment started phase.
+####  Progress: 11/15  v17.28.4     1.909s  Pip check skipped.
+####  Progress: 12/15  v17.28.4     0.000s  Update installation plan.
+####  Progress: 13/15  v17.28.4     0.000s  Record holotree stage to hololib [with 15 workers on 16 CPUs].
+####  Progress: 14/15  v17.28.4     4.402s  Restore space from library [with 15 workers on 16 CPUs; with compression: true].
+Installation plan is: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/rcc_plan.log
+Environment configuration descriptor is: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/identity.yaml
+####  Progress: 15/15  v17.28.4     4.561s  Fresh holotree done [with 15 workers on 16 CPUs].
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@  From rcc "v17.28.4" (controller: "RobocorpCode") point of view, "environment creation" was SUCCESS. @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[
+  {
+    "key": "PYTHON_EXE",
+    "value": "/home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3"
+  },
+  {
+    "key": "PYTHONDONTWRITEBYTECODE",
+    "value": "x"
+  },
+  {
+    "key": "PYTHONPYCACHEPREFIX",
+    "value": "/home/gitpod/.robocorp/temp/b381f34cd0b55a5f"
+  },
+  {
+    "key": "TEMP",
+    "value": "/home/gitpod/.robocorp/temp/b381f34cd0b55a5f"
+  },
+  {
+    "key": "TMP",
+    "value": "/home/gitpod/.robocorp/temp/b381f34cd0b55a5f"
+  },
+  {
+    "key": "CONDA_DEFAULT_ENV",
+    "value": "rcc"
+  },
+  {
+    "key": "CONDA_PREFIX",
+    "value": "/home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826"
+  },
+  {
+    "key": "CONDA_PROMPT_MODIFIER",
+    "value": "(rcc)"
+  },
+  {
+    "key": "CONDA_SHLVL",
+    "value": "1"
+  },
+  {
+    "key": "PYTHONHOME",
+    "value": ""
+  },
+  {
+    "key": "PYTHONSTARTUP",
+    "value": ""
+  },
+  {
+    "key": "PYTHONEXECUTABLE",
+    "value": ""
+  },
+  {
+    "key": "PYTHONNOUSERSITE",
+    "value": "1"
+  },
+  {
+    "key": "ROBOCORP_HOME",
+    "value": "/home/gitpod/.robocorp"
+  },
+  {
+    "key": "RCC_ENVIRONMENT_HASH",
+    "value": "e9c56273fd47ede1"
+  },
+  {
+    "key": "RCC_INSTALLATION_ID",
+    "value": "9247c0f7-1ba5-bc45-f4a8-7fdffd22d7fa"
+  },
+  {
+    "key": "RCC_HOLOTREE_SPACE_ROOT",
+    "value": "/home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826"
+  },
+  {
+    "key": "RCC_TRACKING_ALLOWED",
+    "value": "true"
+  },
+  {
+    "key": "RCC_EXE",
+    "value": "/workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc"
+  },
+  {
+    "key": "RCC_VERSION",
+    "value": "v17.28.4"
+  },
+  {
+    "key": "PATH",
+    "value": "/home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/home/gitpod/.local/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-3.2.4/bin:/home/gitpod/.rvm/gems/ruby-3.2.4@global/bin:/home/gitpod/.rvm/rubies/ruby-3.2.4/bin:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v20.15.0/bin:/home/gitpod/.yarn/bin:/home/gitpod/.pnpm:/home/gitpod/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  },
+  {
+    "key": "MAMBA_ROOT_PREFIX",
+    "value": "/home/gitpod/.robocorp"
+  },
+  {
+    "key": "PWD",
+    "value": "/workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin"
+  },
+  {
+    "key": "SHLVL",
+    "value": "1"
+  },
+  {
+    "key": "_",
+    "value": "/workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/rcc"
+  }
+]
+Took: 39.1s to update conda env.
+Executing: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3 /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/bin/create_env/get_env_info.py
+Took: 0.6s to collect python info.
+Python executable: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3
+Python version: 3,10,12,final,0
+Robot Version: 5.0.1
+Environment:
+    PYTHONPATH: undefined
+    APPDATA: undefined
+    HOMEDRIVE: undefined
+    HOMEPATH: undefined
+    HOME: /home/gitpod
+    ROBOT_ROOT: undefined
+    ROBOT_ARTIFACTS: undefined
+    RCC_INSTALLATION_ID: 9247c0f7-1ba5-bc45-f4a8-7fdffd22d7fa
+    ROBOCORP_HOME: /home/gitpod/.robocorp
+    PROCESSOR_ARCHITECTURE: undefined
+    OS: undefined
+    PATH: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/home/gitpod/.local/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-3.2.4/bin:/home/gitpod/.rvm/gems/ruby-3.2.4@global/bin:/home/gitpod/.rvm/rubies/ruby-3.2.4/bin:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v20.15.0/bin:/home/gitpod/.yarn/bin:/home/gitpod/.pnpm:/home/gitpod/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Using python executable: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3
+Starting Robocorp Code with args: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3 -u /workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/src/robocorp_code/__main__.py -v
+robocorp code: 2024-07-07 14:31:14 UTC pid: 5070 - MainThread - INFO - robocorp_code.__main__
+Arguments: ['-v']
+
+robocorp code: 2024-07-07 14:31:14 UTC pid: 5070 - MainThread - INFO - robocorp_code.__main__
+Python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:40:32) [GCC 12.3.0] - lsp: 1.22.3 (<module 'robocorp_code' from '/workspace/.vscode-remote/extensions/robocorp.robocorp-code-1.22.3-linux-x64/src/robocorp_code/__init__.py'>) - platform: linux - sys.prefix: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826 - sys.executable: /home/gitpod/.robocorp/holotree/a5f6df7_b1f3c24_5f9ab826/bin/python3
+
+robocorp code: 2024-07-07 14:31:14 UTC pid: 5070 - MainThread - INFO - robocorp_code.__main__
+CPUs: 16
+
+robocorp code: 2024-07-07 14:31:14 UTC pid: 5070 - MainThread - INFO - robocorp_ls_core.python_ls
+Starting RobocorpLanguageServer IO language server. pid: 5070
+
+robocorp code: 2024-07-07 14:31:14 UTC pid: 5070 - MainThread - INFO - robocorp_code.robocorp_language_server
+Cache dir: /home/gitpod/.robocorp-code/.cache
+
+Took: 44.2s to initialize Robocorp Code Language Server.
+Robocorp Code initialization finished. Took: 44.2s
